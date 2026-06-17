@@ -1,435 +1,445 @@
 <!DOCTYPE html>
-<!-- index.html: Single-page interview reference for the Scotiabank Manager, Data Engineer recruiter screen. -->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mihir Trivedi | Manager, Data Engineer Interview Reference</title>
-  <meta name="description" content="A concise interview reference mapping Mihir Trivedi's data engineering, BI, governance, and leadership experience to Scotiabank's Manager, Data Engineer role." />
+  <title>Mihir Trivedi | Data, BI and AI Engineer</title>
+  <meta name="description" content="Mihir Trivedi's portfolio for Scotiabank Analytics and Business Intelligence, with proof of work, application timeline, recommendations, references, certifications, and resume." />
   <meta name="author" content="Mihir Trivedi" />
-  <meta property="og:title" content="Mihir Trivedi | Manager, Data Engineer" />
-  <meta property="og:description" content="Role alignment, proof of work, and recruiter-screen talking points for Scotiabank CBO Performance Enablement." />
+  <meta property="og:title" content="Mihir Trivedi | Data, BI and AI Engineer" />
+  <meta property="og:description" content="Scotiabank focused portfolio showing data engineering, SSIS, SQL Server, Power BI, AI, certifications, recommendations, and references." />
   <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Mihir Trivedi | Manager, Data Engineer" />
-  <meta name="twitter:description" content="A concise interview reference for a Manager, Data Engineer conversation." />
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f1ea" />
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141414" />
+  <meta name="theme-color" content="#f7f3eb" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&amp;family=Newsreader:opsz,wght@6..72,600;6..72,700&amp;display=swap" rel="stylesheet" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23851f2b'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial' font-size='22' font-weight='700' fill='white'%3EMT%3C/text%3E%3C/svg%3E" />
-  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='24' fill='%23851f2b'/%3E%3Ctext x='90' y='109' text-anchor='middle' font-family='Arial' font-size='58' font-weight='700' fill='white'%3EMT%3C/text%3E%3C/svg%3E" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,600;6..72,700&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#mainContent">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="#overview" aria-label="Mihir Trivedi interview reference home">
-        <span class="brand-mark" aria-hidden="true">MT</span>
-        <span class="brand-copy">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#hero" aria-label="Mihir Trivedi portfolio home">
+        <span class="brand-mark">MT</span>
+        <span>
           <strong>Mihir Trivedi</strong>
-          <small>Manager, Data Engineer candidate</small>
+          <small>Data, BI and AI Engineer</small>
         </span>
       </a>
-
-      <nav class="tab-nav" role="tablist" aria-label="Reference sections" aria-orientation="horizontal">
-        <button class="tab-button active" id="tab-overview" type="button" role="tab" aria-selected="true" aria-controls="panel-overview" data-tab="overview">Overview</button>
-        <button class="tab-button" id="tab-fit" type="button" role="tab" aria-selected="false" aria-controls="panel-fit" data-tab="fit" tabindex="-1">Role Fit</button>
-        <button class="tab-button" id="tab-proof" type="button" role="tab" aria-selected="false" aria-controls="panel-proof" data-tab="proof" tabindex="-1">Proof of Work</button>
-        <button class="tab-button" id="tab-plan" type="button" role="tab" aria-selected="false" aria-controls="panel-plan" data-tab="plan" tabindex="-1">Value Plan</button>
-        <button class="tab-button" id="tab-guide" type="button" role="tab" aria-selected="false" aria-controls="panel-guide" data-tab="guide" tabindex="-1">Conversation Guide</button>
-      </nav>
-    </div>
+      <button class="nav-toggle" type="button" id="navToggle" aria-controls="siteNav" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <div class="nav-links" id="siteNav">
+        <a href="#fit">Scotiabank Fit</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#work">Work</a>
+        <a href="#recommendations">Recommendations</a>
+        <a href="#references">References</a>
+        <a href="#certifications">Certifications</a>
+        <a class="nav-cta" href="#resume">Resume</a>
+      </div>
+    </nav>
   </header>
 
-  <main id="mainContent" class="page-shell">
-    <section class="intro-section reveal" aria-labelledby="introTitle">
-      <p class="label">Prepared for Scotiabank recruiter screen</p>
-      <div class="intro-layout">
-        <div class="intro-copy">
-          <p class="identity-line">BI and data engineering professional | Manager, Data Engineer candidate</p>
-          <h1 id="introTitle">Mihir Trivedi</h1>
-          <p class="intro-text">
-            This single-page reference maps his experience in governed data products, BI delivery, and technical leadership to Scotiabank's Manager, Data Engineer role in CBO Performance Enablement.
+  <main id="main">
+    <section class="hero-section" id="hero">
+      <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <div class="badge-row">
+            <span class="badge badge-live"><span aria-hidden="true"></span> Open to Scotiabank now and in the future</span>
+            <span class="badge">Canadian PR</span>
+            <span class="badge">Ontario, Canada</span>
+          </div>
+          <p class="eyebrow">Scotiabank Analytics and Business Intelligence applicant</p>
+          <h1>Mihir Trivedi</h1>
+          <p class="hero-lede">
+            I build reliable data flows, business intelligence systems, and practical AI tools. I can own a problem independently, sharpen the right skills fast, and start delivering as soon as I join.
           </p>
-          <div class="hero-actions" aria-label="Candidate links">
-            <a class="button primary" href="mailto:mtrivedi@laurentian.ca">Email</a>
-            <a class="button secondary" href="https://www.linkedin.com/in/mihirtrivedigm" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="button secondary" href="https://www.mihirtrivedi.tech" target="_blank" rel="noopener">Portfolio</a>
+          <div class="typing-line" aria-live="polite">
+            <span id="typedText">SQL Server</span><span class="cursor" aria-hidden="true"></span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="#fit">Why I fit this role</a>
+            <a class="button secondary" href="https://drive.google.com/file/d/1TCec75s3xvApwidRCmejITogNCmGip3Y/view?usp=drive_link" target="_blank" rel="noopener">Show resume</a>
+            <a class="button ghost" href="#recommendations">What people say</a>
           </div>
         </div>
 
-        <aside class="profile-card" aria-label="Candidate snapshot">
-          <h2>Candidate snapshot</h2>
+        <aside class="hero-panel reveal" aria-label="Candidate snapshot">
+          <div class="panel-orbit" aria-hidden="true"></div>
+          <h2>Immediate value signal</h2>
           <dl>
-            <div><dt>Role target</dt><dd>Manager, Data Engineer</dd></div>
-            <div><dt>Function</dt><dd>CBO Performance Enablement</dd></div>
-            <div><dt>Location</dt><dd>Sudbury, open to GTA relocation</dd></div>
-            <div><dt>Core fit</dt><dd>SQL, SSIS, Power BI, data warehousing, controls</dd></div>
+            <div>
+              <dt>Core stack</dt>
+              <dd>SQL Server, SSIS, Power BI, Python, data warehousing</dd>
+            </div>
+            <div>
+              <dt>Relevant proof</dt>
+              <dd>City reporting pipelines, Flosonics warehouse, Power Platform delivery</dd>
+            </div>
+            <div>
+              <dt>Current focus</dt>
+              <dd>Practicing and sharpening SSIS optimization, SQL performance, and BI delivery</dd>
+            </div>
           </dl>
         </aside>
       </div>
     </section>
 
-    <section class="mobile-tabs" aria-label="Mobile section selector">
-      <label for="mobileTabs">Reference section</label>
-      <select id="mobileTabs">
-        <option value="overview">Overview</option>
-        <option value="fit">Role Fit</option>
-        <option value="proof">Proof of Work</option>
-        <option value="plan">Value Plan</option>
-        <option value="guide">Conversation Guide</option>
-      </select>
+    <section class="stats-band" aria-label="Career highlights">
+      <div class="stat reveal">
+        <strong data-count="8" data-suffix="+">8+</strong>
+        <span>Years across data, BI, software and AI</span>
+      </div>
+      <div class="stat reveal">
+        <strong data-count="40" data-suffix="%">40%</strong>
+        <span>Manual reporting reduction at Flosonics</span>
+      </div>
+      <div class="stat reveal">
+        <strong data-count="13">13</strong>
+        <span>Global commerce platforms launched</span>
+      </div>
+      <div class="stat reveal">
+        <strong data-count="5">5</strong>
+        <span>Visible technical certifications</span>
+      </div>
     </section>
 
-    <section class="tab-stage" aria-label="Interview reference content">
-      <article class="tab-panel active" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" data-panel="overview" tabindex="0">
+    <section class="section section-fit" id="fit">
+      <div class="container">
         <header class="section-header reveal">
-          <p class="label">Executive overview</p>
-          <h2>Role context</h2>
+          <p class="eyebrow">For Scotiabank</p>
+          <h2>Ready to own analytics work, improve SSIS flows, and deliver with independent ownership</h2>
           <p>
-            The role calls for reliable data products that support performance insights, operational decisions, and governed reporting. Mihir's recent work follows the same pattern: ingest operational data, validate it, model it, govern it, and make it usable for decision makers.
+            This portfolio is a focused follow-up to the May 2026 Scotiabank conversations. It shows fit for the technical work, the human proof behind the work, and the momentum I have kept while waiting for a response.
           </p>
         </header>
 
-        <div class="metric-grid reveal" aria-label="Candidate highlights">
-          <div class="metric-card"><strong>8+ years</strong><span>Data, BI, software, and analytics delivery</span></div>
-          <div class="metric-card"><strong>4 engineers</strong><span>Direct team leadership at TCS</span></div>
-          <div class="metric-card"><strong>40%</strong><span>Manual reporting reduction at Flosonics</span></div>
-          <div class="metric-card"><strong>PL-300</strong><span>Microsoft Power BI Data Analyst certified</span></div>
-        </div>
-
-        <div class="content-grid two reveal">
-          <section class="card executive-card">
-            <h3>Professional position</h3>
+        <div class="fit-layout">
+          <article class="story-card reveal">
+            <p class="mini-label">Status as of June 17, 2026</p>
+            <h3>I remain interested, whether this specific role is still open or a future one becomes the right fit.</h3>
             <p>
-              Hands-on BI and data engineering professional with delivery experience across regulated medical devices, public sector reporting, mining, and enterprise e-commerce. Owned data products end to end and partnered with Finance, QA, Production, Operations, and technology stakeholders.
+              I applied on <strong>May 7, 2026</strong>. <strong>Yuliya Stefanyshyn, Senior Consultant, Talent Acquisition</strong>, emailed me on <strong>May 8, 2026</strong>. We had our first meeting on <strong>May 11, 2026</strong>, and the conversation moved forward to <strong>Ranjeet Bandi, Senior Manager, Analytics and Business Intelligence</strong>, and <strong>Kshema Dep</strong>.
             </p>
-          </section>
-
-          <section class="card">
-            <h3>Operating strengths</h3>
-            <ul class="clean-list">
-              <li>Strong SQL and data modeling foundation for trusted reporting assets.</li>
-              <li>Experience moving raw operational data into governed analytical models.</li>
-              <li>Manager-level behaviours: prioritization, stakeholder alignment, mentoring, and delivery ownership.</li>
-              <li>Regulated-environment discipline around auditability, lineage, controls, and data quality.</li>
-            </ul>
-          </section>
-        </div>
-
-        <section class="card reveal">
-          <h3>Working model for performance enablement</h3>
-          <p>
-            Performance enablement depends on reliability: reconciled inputs, documented lineage, monitored pipelines, and reporting trusted by downstream teams.
-          </p>
-          <div class="architecture-flow" aria-label="Data enablement architecture">
-            <div class="flow-node source"><span>1</span><strong>Source systems</strong><small>Operational, finance, customer, performance, and platform data</small></div>
-            <div class="flow-arrow" aria-hidden="true"></div>
-            <div class="flow-node"><span>2</span><strong>Ingest and stage</strong><small>SQL Server, SSIS, ADF, and Python where useful</small></div>
-            <div class="flow-arrow" aria-hidden="true"></div>
-            <div class="flow-node"><span>3</span><strong>Validate and model</strong><small>Data quality checks, conformed dimensions, marts, and audit tables</small></div>
-            <div class="flow-arrow" aria-hidden="true"></div>
-            <div class="flow-node outcome"><span>4</span><strong>Enable insights</strong><small>Power BI, SSRS, SSAS, performance reporting, and RCA</small></div>
-          </div>
-        </section>
-      </article>
-
-      <article class="tab-panel" id="panel-fit" role="tabpanel" aria-labelledby="tab-fit" data-panel="fit" tabindex="0" hidden>
-        <header class="section-header reveal">
-          <p class="label">Role alignment</p>
-          <h2>Fit against the job description</h2>
-          <p>
-            The strongest alignment is full-lifecycle data engineering: sourcing, transformation, validation, modeling, controls, and enablement of trusted downstream reporting.
-          </p>
-        </header>
-
-        <section class="card reveal">
-          <h3>Fit matrix</h3>
-          <div class="fit-table" role="table" aria-label="Role fit matrix">
-            <div class="fit-row fit-head" role="row">
-              <div role="columnheader">Scotiabank need</div>
-              <div role="columnheader">Evidence</div>
-              <div role="columnheader">Positioning</div>
-            </div>
-            <div class="fit-row" role="row">
-              <div role="cell"><strong>SQL Server data solutions</strong><span>On-premise and private-cloud patterns</span></div>
-              <div role="cell">City of Greater Sudbury SQL Server pipelines and Power BI models. Flosonics warehouse patterns provide transferable architecture experience.</div>
-              <div role="cell"><span class="status strong">Strong</span></div>
-            </div>
-            <div class="fit-row" role="row">
-              <div role="cell"><strong>SSIS and ETL integration</strong><span>Reliable scheduled pipelines</span></div>
-              <div role="cell">Built SSIS-enabled integrations for public sector reporting, including 911 calls and ministry reporting workflows.</div>
-              <div role="cell"><span class="status strong">Strong</span></div>
-            </div>
-            <div class="fit-row" role="row">
-              <div role="cell"><strong>Power BI semantic models</strong><span>Datasets, reports, and business collaboration</span></div>
-              <div role="cell">PL-300 certified. Built semantic models for Finance and Paramedic Services reporting.</div>
-              <div role="cell"><span class="status strong">Strong</span></div>
-            </div>
-            <div class="fit-row" role="row">
-              <div role="cell"><strong>Dimensional modeling and data quality</strong><span>Validation, controls, and performance optimization</span></div>
-              <div role="cell">Designed governed warehouse assets with dbt tests, validation routines, monitoring, and stakeholder-approved definitions.</div>
-              <div role="cell"><span class="status strong">Strong</span></div>
-            </div>
-            <div class="fit-row" role="row">
-              <div role="cell"><strong>ADF, SSAS, and SSRS</strong><span>Depth in the bank stack</span></div>
-              <div role="cell">SSIS, SSRS, and Power BI experience provide the bridge. ADF and SSAS are transparent ramp areas supported by existing pipeline and semantic modeling foundations.</div>
-              <div role="cell"><span class="status ramp">Transparent ramp</span></div>
-            </div>
-            <div class="fit-row" role="row">
-              <div role="cell"><strong>Production support and RCA</strong><span>Monitoring, issue triage, and controls</span></div>
-              <div role="cell">Designed data quality checks, validation routines, monitoring habits, and executive-facing reporting support.</div>
-              <div role="cell"><span class="status strong">Strong</span></div>
-            </div>
-            <div class="fit-row" role="row">
-              <div role="cell"><strong>Manager readiness</strong><span>Lead, prioritize, mentor, and communicate</span></div>
-              <div role="cell">Led four engineers at TCS and later led delivery across Vale, City, and Flosonics stakeholders without relying on formal authority.</div>
-              <div role="cell"><span class="status strong">Strong</span></div>
-            </div>
-          </div>
-        </section>
-
-        <div class="content-grid two reveal">
-          <section class="card callout">
-            <h3>Regulated delivery</h3>
             <p>
-              Medical devices and public sector reporting reinforce the habit of treating data as evidence. The same discipline applies in banking: lineage, reconciliation, auditability, access controls, escalation paths, and defensible reporting numbers.
+              On <strong>May 19, 2026</strong>, I interviewed with Ranjeet and Kshema for almost 45 minutes. Ranjeet was interested in what people say about me, so recommendations and references are prominent. Kshema focused more on the technical side, so certifications and relevant delivery examples are easy to inspect.
             </p>
-          </section>
-
-          <section class="card safety-card">
-            <h3>Transparent fit</h3>
             <p>
-              The most recent warehouse work was PostgreSQL with dbt and Tableau. SQL Server, SSIS, and Power BI experience comes from City of Greater Sudbury and earlier work. The positioning should be clear: the platform patterns transfer, and the ramp areas are known.
+              I understand the team has SSIS flows they want to optimize. Since our conversation, I have been practicing, studying, and sharpening SSIS, SQL Server, Power BI, and data engineering skills so I can start contributing immediately if selected.
             </p>
-          </section>
-        </div>
+          </article>
 
-        <section class="card reveal">
-          <h3>Credible keywords</h3>
-          <div class="tag-list">
-            <span>SQL Server</span><span>SSIS</span><span>Power BI</span><span>SSRS</span><span>PostgreSQL</span><span>dbt</span><span>ETL and ELT</span><span>Dimensional modeling</span><span>Data quality</span><span>Data validation</span><span>Data governance</span><span>RCA</span><span>Controls</span><span>Lineage</span><span>Python</span><span>Agile delivery</span><span>Stakeholder management</span><span>Team leadership</span>
+          <div class="fit-grid">
+            <article class="fit-card reveal">
+              <span>01</span>
+              <h3>SSIS and SQL Server</h3>
+              <p>Built SQL Server integrations using SSIS, Python, and Google Cloud SQL Auth Proxy for City of Greater Sudbury reporting workflows.</p>
+            </article>
+            <article class="fit-card reveal">
+              <span>02</span>
+              <h3>Power BI and decisions</h3>
+              <p>PL-300 certified with real reporting delivery across public sector, MedTech, finance, QA, production, and operations stakeholders.</p>
+            </article>
+            <article class="fit-card reveal">
+              <span>03</span>
+              <h3>Ownership mindset</h3>
+              <p>Led work from requirements through delivery, documentation, handover, stakeholder training, and production support.</p>
+            </article>
+            <article class="fit-card reveal">
+              <span>04</span>
+              <h3>Canadian work readiness</h3>
+              <p>Canadian Permanent Resident, based in Ontario, and serious about building long-term data and analytics impact in Canada.</p>
+            </article>
           </div>
-        </section>
-      </article>
+        </div>
+      </div>
+    </section>
 
-      <article class="tab-panel" id="panel-proof" role="tabpanel" aria-labelledby="tab-proof" data-panel="proof" tabindex="0" hidden>
+    <section class="section section-dark" id="timeline">
+      <div class="container">
         <header class="section-header reveal">
-          <p class="label">Evidence</p>
-          <h2>Relevant proof of work</h2>
-          <p>
-            The strongest examples show end-to-end ownership, stakeholder partnership, and the ability to build reporting foundations that can be trusted under scrutiny.
-          </p>
+          <p class="eyebrow">Application timeline</p>
+          <h2>The Scotiabank conversation so far</h2>
+          <p>A transparent timeline of what happened, when it happened, and where things stand today.</p>
+        </header>
+        <div class="application-timeline reveal" aria-label="Scotiabank application timeline">
+          <article class="timeline-step">
+            <span>May 7, 2026</span>
+            <h3>Application submitted</h3>
+            <p>Applied for the Scotiabank Analytics and Business Intelligence opportunity.</p>
+          </article>
+          <article class="timeline-step">
+            <span>May 8, 2026</span>
+            <h3>Recruiter email</h3>
+            <p>Received an email from Yuliya Stefanyshyn, Senior Consultant, Talent Acquisition.</p>
+          </article>
+          <article class="timeline-step">
+            <span>May 11, 2026</span>
+            <h3>First meeting</h3>
+            <p>Met with Yuliya. The conversation went well and my profile was forwarded.</p>
+          </article>
+          <article class="timeline-step">
+            <span>May 19, 2026</span>
+            <h3>Panel interview</h3>
+            <p>Interviewed for almost 45 minutes with Ranjeet Bandi and Kshema Dep.</p>
+          </article>
+          <article class="timeline-step current">
+            <span>June 17, 2026</span>
+            <h3>Still interested</h3>
+            <p>Waiting for a response. If the team has moved forward, I remain interested in Scotiabank now and in the future.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">Proof of work</p>
+          <h2>Work that maps directly to this role</h2>
+          <p>Scotiabank needs dependable data products. These examples show the same operating pattern: source data, clean it, model it, validate it, and make it useful.</p>
         </header>
 
-        <section class="proof-timeline reveal" aria-label="Relevant experience timeline">
-          <article class="proof-card">
-            <div class="proof-date">2024 to 2026</div>
-            <div class="proof-body">
-              <h3>Flosonics Medical</h3>
-              <p class="role-meta">Governed warehouse and reporting foundation</p>
-              <ul>
-                <li>Architected a centralized PostgreSQL warehouse with dbt as a governed source of truth across Finance, QA, Production, and HR.</li>
-                <li>Built ETL and ELT pipelines from medical device logs, Salesforce, HubSpot, ZoomInfo, and Lead Forensics.</li>
-                <li>Reduced manual reporting overhead by 40% through automated dashboards, models, validation, and monitoring.</li>
-              </ul>
+        <div class="work-grid">
+          <article class="work-card featured reveal">
+            <p class="mini-label">Most relevant to SSIS and SQL Server</p>
+            <h3>City of Greater Sudbury</h3>
+            <p>Integrated third-party vendor data with SQL Server using SSIS, Python, and Google Cloud SQL Auth Proxy. Supported 911 calls, opioid-response reporting, Service Based Budgeting, and stakeholder training on data governance.</p>
+            <div class="tag-list">
+              <span>SQL Server</span><span>SSIS</span><span>Python</span><span>Power BI</span><span>Data governance</span>
             </div>
           </article>
-
-          <article class="proof-card">
-            <div class="proof-date">2024</div>
-            <div class="proof-body">
-              <h3>City of Greater Sudbury</h3>
-              <p class="role-meta">SQL Server, SSIS, and Power BI reporting</p>
-              <ul>
-                <li>Built scheduled reporting pipelines for Paramedic Services and Finance in a public sector environment.</li>
-                <li>Integrated third-party vendor data into SQL Server using SSIS, Python, and Google Cloud SQL Auth Proxy.</li>
-                <li>Enabled 911 calls, Opioid Response Ministry reporting, Service Based Budgeting models, and governance training.</li>
-              </ul>
+          <article class="work-card reveal">
+            <p class="mini-label">Warehouse and analytics foundation</p>
+            <h3>Flosonics Medical</h3>
+            <p>Architected a PostgreSQL and dbt warehouse, built ELT pipelines from Salesforce, HubSpot, ZoomInfo, Lead Forensics, and device logs, then automated dashboards and audit reporting.</p>
+            <div class="tag-list">
+              <span>PostgreSQL</span><span>dbt</span><span>Power BI</span><span>Tableau</span><span>OpenAI</span>
             </div>
           </article>
-
-          <article class="proof-card">
-            <div class="proof-date">2024 to 2025</div>
-            <div class="proof-body">
-              <h3>LoopX</h3>
-              <p class="role-meta">Real-time operational analytics platform</p>
-              <ul>
-                <li>Delivered dashboards and automated reporting systems for mining safety and operational performance insights.</li>
-                <li>Converted raw mining logs into structured tables, metrics, and visual signals for operators.</li>
-                <li>Connected technical delivery to operational risk, safety, and business-value discussions.</li>
-              </ul>
+          <article class="work-card reveal">
+            <p class="mini-label">Independent delivery</p>
+            <h3>Ground Control App for Vale</h3>
+            <p>Led end-to-end delivery of an offline-first Power Platform mobile app for underground environments, including requirements, sprint planning, stakeholder collaboration, and handover.</p>
+            <div class="tag-list">
+              <span>Power Apps</span><span>Power Automate</span><span>Dataverse</span><span>Offline-first</span>
             </div>
           </article>
-
-          <article class="proof-card">
-            <div class="proof-date">2017 to 2021</div>
-            <div class="proof-body">
-              <h3>TCS</h3>
-              <p class="role-meta">Team leadership and enterprise delivery</p>
-              <ul>
-                <li>Led four engineers maintaining and evolving Edgepark while contributing to SAP Commerce Cloud platform launches.</li>
-                <li>Owned requirements gathering, backlog management, solution design, and delivery coordination.</li>
-                <li>Launched 13 B2B e-commerce platforms across Europe and North America with release-readiness discipline.</li>
-              </ul>
+          <article class="work-card reveal">
+            <p class="mini-label">Leadership and scale</p>
+            <h3>Tata Consultancy Services</h3>
+            <p>Led four engineers, managed backlog and delivery coordination, maintained Edgepark, and launched 13 B2B commerce platforms across Europe and North America.</p>
+            <div class="tag-list">
+              <span>Team lead</span><span>Java</span><span>SAP Commerce</span><span>REST APIs</span><span>CI/CD</span>
             </div>
           </article>
-        </section>
-
-        <section class="card reveal">
-          <h3>Recruiter screen stories</h3>
-          <div class="story-grid">
-            <div><strong>Tell me about yourself</strong><span>TCS leadership, Canadian master's, City SQL Server and Power BI, Flosonics warehouse.</span></div>
-            <div><strong>Why this role</strong><span>Similar data lifecycle at larger scale in a regulated bank environment with explicit manager scope.</span></div>
-            <div><strong>Leadership</strong><span>Four engineers at TCS plus delivery leadership across Vale, City, and Flosonics stakeholders.</span></div>
-            <div><strong>Why now</strong><span>Flosonics ended the BI function through a business decision. The target is durable manager-level data engineering work.</span></div>
-          </div>
-        </section>
-      </article>
-
-      <article class="tab-panel" id="panel-plan" role="tabpanel" aria-labelledby="tab-plan" data-panel="plan" tabindex="0" hidden>
-        <header class="section-header reveal">
-          <p class="label">First 90 days</p>
-          <h2>Value without rushing change</h2>
-          <p>
-            The first priority would be to understand the team's current state before proposing changes. In a bank environment, credibility comes from listening, respecting controls, and improving reliability with discipline.
-          </p>
-        </header>
-
-        <section class="card timeline-card reveal">
-          <h3>90-day value plan</h3>
-          <div class="timeline" aria-label="First 90-day plan">
-            <div class="timeline-item">
-              <div class="timeline-dot" aria-hidden="true"></div>
-              <div class="timeline-content">
-                <span>Days 1 to 30</span>
-                <h4>Listen, map, and build context</h4>
-                <p>Understand CBO Performance Enablement priorities, key stakeholders, current data assets, support pain points, controls, and team operating rhythm.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-dot" aria-hidden="true"></div>
-              <div class="timeline-content">
-                <span>Days 31 to 60</span>
-                <h4>Stabilize and strengthen</h4>
-                <p>Identify reliability improvements: pipeline monitoring, reconciliation checks, documentation gaps, backlog hygiene, and production support playbooks.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-dot" aria-hidden="true"></div>
-              <div class="timeline-content">
-                <span>Days 61 to 90</span>
-                <h4>Deliver visible improvement</h4>
-                <p>Deliver one or two tangible improvements that increase reporting trust, reduce manual work, or shorten issue resolution time for downstream teams.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <div class="content-grid two reveal">
-          <section class="card">
-            <h3>Reliability checklist</h3>
-            <ul class="check-list">
-              <li>Freshness checks on critical datasets.</li>
-              <li>Row count and financial-total reconciliation.</li>
-              <li>Clear incident triage and escalation paths.</li>
-              <li>Source-to-report lineage documentation.</li>
-              <li>Code review and deployment discipline.</li>
-            </ul>
-          </section>
-
-          <section class="card">
-            <h3>Manager behaviours</h3>
-            <ul class="check-list">
-              <li>Listen before redesigning.</li>
-              <li>Clarify team priorities and decision rights.</li>
-              <li>Make work visible through clear backlog hygiene.</li>
-              <li>Protect the team from constant context switching.</li>
-              <li>Coach through examples, not only instructions.</li>
-            </ul>
-          </section>
         </div>
+      </div>
+    </section>
 
-        <section class="card callout reveal">
-          <h3>What would wait</h3>
-          <p>
-            A prebuilt architecture should not be imposed on the team. The better first step is to learn Scotiabank's standards, platform constraints, governance expectations, and stakeholder pain points, then propose improvements that fit the bank's risk culture and operating model.
-          </p>
-        </section>
-      </article>
-
-      <article class="tab-panel" id="panel-guide" role="tabpanel" aria-labelledby="tab-guide" data-panel="guide" tabindex="0" hidden>
+    <section class="section section-muted" id="skills">
+      <div class="container">
         <header class="section-header reveal">
-          <p class="label">Conversation support</p>
-          <h2>Recruiter screen talking points</h2>
-          <p>
-            These are concise, shareable points for keeping the conversation clear and grounded in the role requirements.
-          </p>
+          <p class="eyebrow">Technical depth</p>
+          <h2>The stack I can bring into a banking data team</h2>
         </header>
-
-        <div class="content-grid two reveal">
-          <section class="card script-card">
-            <h3>60-second introduction</h3>
-            <p id="introScript">
-              I am a BI and data engineering professional with about eight years of experience across software engineering, public sector reporting, mining, and medical devices. I have built SQL and data warehouse solutions, SSIS pipelines, Power BI semantic models, and governed reporting assets. Most recently, I built a centralized warehouse at Flosonics Medical supporting Finance, QA, Production, and HR. The next step is a manager-level data engineering role that combines hands-on technical depth with stakeholder leadership and team development.
-            </p>
-            <button class="copy-button" type="button" data-copy-target="introScript">Copy intro</button>
-          </section>
-
-          <section class="card script-card">
-            <h3>Why Scotiabank</h3>
-            <p id="whyScript">
-              This role is a close fit because it sits at the intersection of data engineering, performance reporting, governance, and business enablement. The job description maps to my experience with SQL Server, SSIS, Power BI, dimensional modeling, data quality, and operational reporting. Scotiabank also provides the larger regulated environment where data discipline, controls, and durable platform ownership matter.
-            </p>
-            <button class="copy-button" type="button" data-copy-target="whyScript">Copy answer</button>
-          </section>
-        </div>
-
-        <section class="card reveal">
-          <h3>Questions to ask</h3>
-          <div class="question-list">
-            <button type="button" class="question-item">What does success look like in this role at the 6-month and 12-month mark?</button>
-            <button type="button" class="question-item">What is the current shape of the team across hands-on engineering, support, and stakeholder work?</button>
-            <button type="button" class="question-item">What is the most important data engineering challenge the team is addressing now?</button>
-            <button type="button" class="question-item">How does CBO Performance Enablement fit into Scotiabank's broader data and analytics organization?</button>
-            <button type="button" class="question-item">Is there anything in my background you would want me to address more directly?</button>
+        <div class="skills-matrix reveal">
+          <div>
+            <h3>Data engineering</h3>
+            <p>SQL Server, SSIS, PostgreSQL, Python, dbt, ETL and ELT, data modeling, data quality, validation, lineage, controls.</p>
           </div>
-          <p class="helper-text">Select a question to copy it.</p>
-        </section>
+          <div>
+            <h3>BI and analytics</h3>
+            <p>Power BI, DAX, Power Query, Tableau, KPI dashboards, executive reporting, performance reporting, data storytelling.</p>
+          </div>
+          <div>
+            <h3>Microsoft and cloud</h3>
+            <p>Azure, Power Platform, Power Apps, Power Automate, Dataverse, Docker, Linux, GitHub Actions, serverless delivery.</p>
+          </div>
+          <div>
+            <h3>AI and automation</h3>
+            <p>OpenAI, Gemini, LLM apps, AI agents, RAG, prompt engineering, Salesforce Agentforce, secure production chatbot delivery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="card next-step-card reveal">
-          <h3>Closing note</h3>
-          <p>
-            Available to discuss the team's platform, controls, delivery expectations, and leadership needs in the hiring manager round.
-          </p>
-          <p class="next-step-contact">
-            <strong>Mihir Trivedi</strong> <span aria-hidden="true">|</span> <a href="mailto:mtrivedi@laurentian.ca">mtrivedi@laurentian.ca</a> <span aria-hidden="true">|</span> <a href="tel:+12493605901">249-360-5901</a>
-          </p>
-        </section>
-      </article>
+    <section class="section proof-section" id="recommendations">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">Recommendations</p>
+          <h2>What people say about Mihir</h2>
+          <p>Ranjeet asked about the human proof behind the resume. These recommendations answer that directly.</p>
+        </header>
+        <div class="proof-spotlight reveal">
+          <h3>Pattern across the feedback</h3>
+          <p>People point to ownership, curiosity, follow-through, clear communication, and the ability to become useful quickly in unfamiliar environments.</p>
+        </div>
+        <div class="recommendation-list">
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Arash Mahmoudhashemi</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_arash_mahmoudhashemi_clean.png" data-title="Recommendation from Arash Mahmoudhashemi">
+              <img src="media/recommendation_arash_mahmoudhashemi_clean.png" alt="LinkedIn recommendation from Arash Mahmoudhashemi for Mihir Trivedi" width="1466" height="348" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Caleb Chin</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_caleb_chin_clean.png" data-title="Recommendation from Caleb Chin">
+              <img src="media/recommendation_caleb_chin_clean.png" alt="LinkedIn recommendation from Caleb Chin for Mihir Trivedi" width="1463" height="305" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Isabelle Falzon</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_isabelle_falzon_clean.png" data-title="Recommendation from Isabelle Falzon">
+              <img src="media/recommendation_isabelle_falzon_clean.png" alt="LinkedIn recommendation from Isabelle Falzon for Mihir Trivedi" width="1454" height="350" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Mikayla Scott</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_mikayla_scott_clean.png" data-title="Recommendation from Mikayla Scott">
+              <img src="media/recommendation_mikayla_scott_clean.png" alt="LinkedIn recommendation from Mikayla Scott for Mihir Trivedi" width="1485" height="499" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Rea Luto</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_rea_luto_clean.png" data-title="Recommendation from Rea Luto">
+              <img src="media/recommendation_rea_luto_clean.png" alt="LinkedIn recommendation from Rea Luto for Mihir Trivedi" width="1458" height="474" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Rob Martin</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_rob_martin_clean.png" data-title="Recommendation from Rob Martin">
+              <img src="media/recommendation_rob_martin_clean.png" alt="LinkedIn recommendation from Rob Martin for Mihir Trivedi" width="1616" height="826" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Yash Sonani</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_yash_sonani_clean.png" data-title="Recommendation from Yash Sonani">
+              <img src="media/recommendation_yash_sonani_clean.png" alt="LinkedIn recommendation from Yash Sonani for Mihir Trivedi" width="1442" height="412" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card reveal">
+            <header><span>LinkedIn recommendation</span><h3>Brandon Pannier</h3></header>
+            <button type="button" class="image-button" data-full-image="media/recommendation_brandon_pannier_clean.png" data-title="Recommendation from Brandon Pannier">
+              <img src="media/recommendation_brandon_pannier_clean.png" alt="LinkedIn recommendation from Brandon Pannier for Mihir Trivedi" width="1616" height="416" loading="lazy" decoding="async" />
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted proof-section" id="references">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">References</p>
+          <h2>People who can speak to the work</h2>
+          <p>These references support the point that matters for this role: I can be trusted with ownership, communication, and delivery.</p>
+        </header>
+        <div class="reference-list">
+          <article class="media-card tall reveal">
+            <header><span>Professional reference</span><h3>Colleen Bobbie</h3></header>
+            <button type="button" class="image-button" data-full-image="media/reference_colleen_bobbie_clean.png" data-title="Reference from Colleen Bobbie">
+              <img src="media/reference_colleen_bobbie_clean.png" alt="Professional reference from Colleen Bobbie for Mihir Trivedi" width="1439" height="1121" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card tall reveal">
+            <header><span>Professional reference</span><h3>Kshitija Suryavanshi</h3></header>
+            <button type="button" class="image-button" data-full-image="media/reference_kshitija_suryavanshi_clean.png" data-title="Reference from Kshitija Suryavanshi">
+              <img src="media/reference_kshitija_suryavanshi_clean.png" alt="Professional reference from Kshitija Suryavanshi for Mihir Trivedi" width="1436" height="1082" loading="lazy" decoding="async" />
+            </button>
+          </article>
+          <article class="media-card tall reveal">
+            <header><span>Professional reference</span><h3>Walter Rondon</h3></header>
+            <button type="button" class="image-button" data-full-image="media/reference_walter_rondon_clean.png" data-title="Reference from Walter Rondon">
+              <img src="media/reference_walter_rondon_clean.png" alt="Professional reference from Walter Rondon for Mihir Trivedi" width="1435" height="1279" loading="lazy" decoding="async" />
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section proof-section" id="certifications">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">Certifications</p>
+          <h2>Technical proof for the conversation with Kshema</h2>
+          <p>Visible credentials across Azure, Power BI, Power Platform, and Salesforce Agentforce. They reinforce the same thing my work shows: I keep building and sharpening.</p>
+        </header>
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <button type="button" class="image-button" data-full-image="media/certification_microsoft_pl300_clean.png" data-title="Microsoft PL-300 certification">
+              <img src="media/certification_microsoft_pl300_clean.png" alt="Microsoft Power BI Data Analyst Associate certification for Mihir Trivedi" width="1600" height="1000" loading="lazy" decoding="async" />
+            </button>
+            <div><span>Power BI</span><h3>Microsoft Certified: Power BI Data Analyst Associate</h3><p>Directly relevant to semantic models, DAX, Power Query, reporting, and analytics adoption.</p></div>
+          </article>
+          <article class="cert-card reveal">
+            <button type="button" class="image-button" data-full-image="media/certification_microsoft_pl400_clean.png" data-title="Microsoft PL-400 certification">
+              <img src="media/certification_microsoft_pl400_clean.png" alt="Microsoft Power Platform Developer Associate certification for Mihir Trivedi" width="1600" height="1000" loading="lazy" decoding="async" />
+            </button>
+            <div><span>Power Platform</span><h3>Microsoft Certified: Power Platform Developer Associate</h3><p>Supports workflow automation, Dataverse, Power Apps, and business process delivery.</p></div>
+          </article>
+          <article class="cert-card reveal">
+            <button type="button" class="image-button" data-full-image="media/certification_microsoft_az900_clean.png" data-title="Microsoft AZ-900 certification">
+              <img src="media/certification_microsoft_az900_clean.png" alt="Microsoft Azure Fundamentals certification for Mihir Trivedi" width="1600" height="1000" loading="lazy" decoding="async" />
+            </button>
+            <div><span>Azure</span><h3>Microsoft Certified: Azure Fundamentals</h3><p>Cloud foundation for data platforms, security, governance, and architecture conversations.</p></div>
+          </article>
+          <article class="cert-card reveal">
+            <button type="button" class="image-button" data-full-image="media/certification_microsoft_az305_clean.png" data-title="Microsoft AZ-305 certification result">
+              <img src="media/certification_microsoft_az305_clean.png" alt="Microsoft AZ-305 exam result for Mihir Trivedi" width="1600" height="1000" loading="lazy" decoding="async" />
+            </button>
+            <div><span>Architecture</span><h3>Microsoft Azure Solutions Architect Expert exam proof</h3><p>Relevant to solution design, tradeoffs, integration, scalability, and platform ownership.</p></div>
+          </article>
+          <article class="cert-card reveal">
+            <button type="button" class="image-button" data-full-image="media/certification_salesforce_agentforce_specialist_clean.png" data-title="Salesforce Agentforce certification">
+              <img src="media/certification_salesforce_agentforce_specialist_clean.png" alt="Salesforce Agentforce Specialist certification for Mihir Trivedi" width="1600" height="1000" loading="lazy" decoding="async" />
+            </button>
+            <div><span>AI</span><h3>Salesforce Certified Agentforce Specialist</h3><p>Complements my AI assistant and automation work with agentic workflow knowledge.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="resume">
+      <div class="container">
+        <div class="resume-card reveal">
+          <div>
+            <p class="eyebrow">Resume used for this application</p>
+            <h2>Open the exact resume submitted for the Scotiabank process</h2>
+            <p>This is the Google Drive resume link used for this application. It is included here so the portfolio, recommendations, references, certifications, and resume stay connected.</p>
+          </div>
+          <a class="button primary light" href="https://drive.google.com/file/d/1TCec75s3xvApwidRCmejITogNCmGip3Y/view?usp=drive_link" target="_blank" rel="noopener">Show resume</a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div>
-      <strong>Mihir Trivedi, 2026</strong>
-      <span><a href="mailto:mtrivedi@laurentian.ca">mtrivedi@laurentian.ca</a></span>
+      <strong>Mihir Trivedi</strong>
+      <span>Data, Business Intelligence and AI Engineer</span>
     </div>
-    <button class="text-button" id="printButton" type="button">
-      <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path d="M7 8V3h10v5" />
-        <path d="M7 17H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
-        <path d="M7 14h10v7H7z" />
-      </svg>
-      <span>Print reference</span>
-    </button>
+    <div class="footer-links">
+      <a href="mailto:mtrivedi@laurentian.ca">Email</a>
+      <a href="https://www.linkedin.com/in/mihirtrivedigm" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#hero">Back to top</a>
+    </div>
   </footer>
 
-  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">Copied to clipboard</div>
+  <dialog class="image-dialog" id="imageDialog" aria-labelledby="dialogTitle">
+    <form method="dialog">
+      <button class="dialog-close" type="submit" aria-label="Close preview">Close</button>
+    </form>
+    <h2 id="dialogTitle">Preview</h2>
+    <img id="dialogImage" src="" alt="" />
+  </dialog>
 </body>
 </html>
