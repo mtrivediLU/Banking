@@ -12,11 +12,11 @@
   const canvas = document.getElementById("heroCanvas");
 
   const phrases = [
-    "SQL Server and SSIS optimization",
-    "Power BI semantic models",
-    "Data quality and governance",
-    "Independent delivery ownership",
-    "AI-assisted analytics"
+    "SQL, Python, ETL and ELT pipelines",
+    "PySpark and Databricks growth focus",
+    "Azure data platform foundations",
+    "Data quality, validation and observability",
+    "Stakeholder intake to production support"
   ];
 
   let typedIndex = 0;
@@ -296,21 +296,23 @@
       .map((link) => document.querySelector(link.getAttribute("href")))
       .filter(Boolean);
 
-    if (!sections.length || !("IntersectionObserver" in window)) return;
+    if (!sections.length) return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          links.forEach((link) => {
-            link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`);
-          });
-        });
-      },
-      { threshold: 0.25, rootMargin: "-20% 0px -58% 0px" }
-    );
+    function setActiveLink() {
+      const offset = Math.min(320, window.innerHeight * 0.34);
+      const current = sections.reduce((active, section) => {
+        return section.offsetTop - offset <= window.scrollY ? section : active;
+      }, sections[0]);
 
-    sections.forEach((section) => observer.observe(section));
+      links.forEach((link) => {
+        link.classList.toggle("active", link.getAttribute("href") === `#${current.id}`);
+      });
+    }
+
+    setActiveLink();
+    window.setTimeout(setActiveLink, 160);
+    window.addEventListener("scroll", setActiveLink, { passive: true });
+    window.addEventListener("hashchange", setActiveLink);
   }
 
   function init() {
